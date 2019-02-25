@@ -85,3 +85,14 @@ html, body {
 .txt-open-sans {
     font-family: 'Open Sans', sans-serif
 }
+
+@media only screen and (max-width: 768px) {
+    
+    .row {
+        padding: 0em 2em 0em 2em
+    }
+    
+    .section-dark-blue-250 {
+        margin-top: 50px
+    }
+}
