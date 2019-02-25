@@ -4,14 +4,50 @@
     color: #40a8a1;
 }
 
+.text-heading {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2em;
+    color: #f7fff7;
+    text-align: center;
+    padding: 1em 1em 0em 1em;
+}
+
 .text-subheading {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em
+    font-size: 1em;
+    color: #f7fff7;
+    text-align: center;
+    padding: 0em 1em 2em 1em;
+}
+
+.text-button {
+    font-family: "Open Sans", sans-serif;
+    font-size: .75em;
+    text-transform: uppercase;
+}
+
+.text-landing-subheading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: 0em 1em 1em 1em;
 }
 
 /* .navi-logo {
     margin-left: -50px
 } */
+
+.image-col-2 {
+    width: 75%;
+    max-width: 200px;
+    height: auto;
+}
+
+.section-dark-blue-250 {
+    background-color: #32837d;
+    height: auto;
+    width: 100%;
+    margin-top: -15px
+}
 
 .navi-logo:hover {
     text-decoration: none
