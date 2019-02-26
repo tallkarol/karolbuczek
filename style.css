@@ -45,6 +45,20 @@ html, body {
     padding: 0em 1em 1em 1em;
 }
 
+.text-icon-heading {
+    font-family: 'Comfortaa', cursive;
+    font-size: .95em;
+}
+
+.line-under-icon {
+    width: 75%
+}
+
+.line-under-heading {
+    width:50%;
+    margin-bottom: 3em
+}
+
 /* .navi-logo {
     margin-left: -50px
 } */
@@ -77,6 +91,10 @@ html, body {
     margin-top: -15px
 }
 
+.section-grey {
+    background-color: #cbd1cb;
+}
+
 .navi-logo:hover {
     text-decoration: none
 }
@@ -102,6 +120,9 @@ html, body {
 }
 
 @media only screen and (max-width: 992px) {
+    .text-icon-heading {
+        font-size: .9em;
+    }
     
     .row {
         padding: 0em 1em 0em 1em
@@ -129,5 +150,9 @@ html, body {
     .image-col-2 {
         height: auto;
         width: 33%;
+    }
+
+    .line-under-icon {
+        width: 50%;
     }
 }
