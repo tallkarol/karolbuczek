@@ -3,6 +3,14 @@ html, body {
     overflow-x: hidden;
 }
 
+.txt-comfortaa {
+    font-family: 'Comfortaa', cursive
+}
+
+.txt-open-sans {
+    font-family: 'Open Sans', sans-serif
+}
+
 .text-logo {
     font-family: 'Comfortaa', cursive;
     font-size: 1.5em;
@@ -41,6 +49,21 @@ html, body {
     margin-left: -50px
 } */
 
+.card-project {
+    background-color: #8edfd9;
+    color: #40a8a1;
+}
+
+.card-project-2 {
+    background-color: #40a8a1;
+    color: #8edfd9;
+}
+
+.card-project-3 {
+    background-color: #4ecdc4;
+    color: #32837d;
+}
+
 .image-col-2 {
     width: 75%;
     max-width: 200px;
@@ -78,21 +101,33 @@ html, body {
     text-decoration: none
 }
 
-.txt-comfortaa {
-    font-family: 'Comfortaa', cursive
-}
-
-.txt-open-sans {
-    font-family: 'Open Sans', sans-serif
+@media only screen and (max-width: 992px) {
+    
+    .row {
+        padding: 0em 1em 0em 1em
+    }
+    
+    .section-dark-blue-250 {
+        margin-top: 50px
+    }
 }
 
 @media only screen and (max-width: 768px) {
     
     .row {
-        padding: 0em 2em 0em 2em
+        padding: 0em 1em 0em 1em
     }
     
     .section-dark-blue-250 {
         margin-top: 50px
+    }
+
+    .text-landing-heading {
+        margin-top: 10px
+    }
+
+    .image-col-2 {
+        height: auto;
+        width: 33%;
     }
 }
