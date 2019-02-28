@@ -1,12 +1,14 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    margin-top:50px
 }
 
 #intro {
     padding: 2em 0em 7em 0em;
     background-color: #40a8a1;
     margin-top: -13px;
+    /* padding-top: */
 }
 
 #unify-tech-solve-problems {
@@ -74,6 +76,14 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #f7fff7;
+    text-align: center;
+    padding: 0em 1em 2em 1em;
+}
+
+.text-subheading-dark {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #000000;
     text-align: center;
     padding: 0em 1em 2em 1em;
 }
