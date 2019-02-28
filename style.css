@@ -3,6 +3,41 @@ html, body {
     overflow-x: hidden;
 }
 
+#intro {
+    padding: 2em 0em 7em 0em;
+    background-color: #40a8a1;
+    margin-top: -13px;
+}
+
+#unify-tech-solve-problems {
+    background-color: #32837d;
+    padding: 5em 0em
+}
+
+#efficiency-beauty {
+    background-color: #9ea39e
+}
+
+#skills-intro {
+    padding: 5em 0em
+}
+
+.button-dark-green {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #32837D;
+    padding: 1em 2em;
+    font-size: .8em;
+    color: #32837d
+}
+
+.button-dark-green:hover {
+    background-color: #32837D;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+}
+
 .txt-comfortaa {
     font-family: 'Comfortaa', cursive
 }
@@ -23,6 +58,16 @@ html, body {
     color: #f7fff7;
     text-align: center;
     padding: 1em 1em 0em 1em;
+    line-height: 2em
+}
+
+.text-heading-dark {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+    padding: 1em 1em 0em 1em;
+    line-height: 2em
 }
 
 .text-subheading {
@@ -48,6 +93,12 @@ html, body {
 .text-icon-heading {
     font-family: 'Comfortaa', cursive;
     font-size: .95em;
+}
+
+.icon-tech {
+    height: auto;
+    width: 100px;
+    padding: 2em
 }
 
 .line-under-icon {
@@ -120,6 +171,10 @@ html, body {
 }
 
 @media only screen and (max-width: 992px) {
+    #intro {
+        margin-top: 4em
+    }
+    
     .text-icon-heading {
         font-size: .9em;
     }
@@ -135,6 +190,10 @@ html, body {
 
 @media only screen and (max-width: 768px) {
     
+    #intro {
+        margin-top: 4em;
+    }
+
     .row {
         padding: 0em 1em 0em 1em
     }
