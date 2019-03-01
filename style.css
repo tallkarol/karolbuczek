@@ -76,6 +76,15 @@ html, body {
     line-height: 2em
 }
 
+.text-heading-modal-dark {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    color: #000000;
+    text-align: center;
+    padding: 1em 1em 0em 1em;
+    line-height: 2em
+}
+
 .text-subheading {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
