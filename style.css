@@ -3,6 +3,16 @@ html, body {
     /* overflow-x: hidden; */
 }
 
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+    width: auto;
+}
+
+.btn-block {
+    margin-top: 0px !important
+}
+
 #intro {
     padding: 2em 0em 7em 0em;
     background-color: #40a8a1;
