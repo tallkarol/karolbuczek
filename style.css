@@ -1,6 +1,10 @@
 html, body {
     max-width: 100%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+}
+
+body.modal-open {
+    padding-right: 0px !important
 }
 
 .card-img-top {
@@ -14,7 +18,7 @@ html, body {
 }
 
 #intro {
-    padding: 2em 0em 7em 0em;
+    padding: 2em 0em 2em 0em;
     background-color: #40a8a1;
     margin-top: -13px;
     padding-top: 20px;
