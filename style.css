@@ -69,6 +69,18 @@ body.modal-open {
     text-decoration: none
 }
 
+.text-modal-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.text-modal-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
 .text-heading {
     font-family: 'Comfortaa', cursive;
     font-size: 1.75em;
@@ -85,6 +97,13 @@ body.modal-open {
     text-align: center;
     padding: 1em 1em 0em 1em;
     line-height: 2em
+}
+
+.text-heading-modal {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-bottom: 0;
 }
 
 .text-heading-modal-dark {
