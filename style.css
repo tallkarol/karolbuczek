@@ -20,11 +20,9 @@ body.modal-open {
     margin-top: 0px !important
 }
 
-#intro {
-    padding: 2em 0em 2em 0em;
+#about {
+    padding: 2em 0em;
     background-color: #40a8a1;
-    margin-top: -13px;
-    padding-top: 20px;
 }
 
 #unify-tech-solve-problems {
@@ -39,10 +37,6 @@ body.modal-open {
 #skills-intro {
     padding: 5em 0em
 }
-
-/* .card {
-    min-height: 650px
-} */
 
 .card-body {
     min-height: 240px
@@ -64,14 +58,6 @@ body.modal-open {
     font-size: .8em;
 }
 
-.txt-comfortaa {
-    font-family: 'Comfortaa', cursive
-}
-
-.txt-open-sans {
-    font-family: 'Open Sans', sans-serif
-}
-
 .text-nav-name {
     font-family: 'Comfortaa', cursive;
     font-size: 1.5em;
@@ -85,7 +71,7 @@ body.modal-open {
 
 .text-heading {
     font-family: 'Comfortaa', cursive;
-    font-size: 2em;
+    font-size: 1.75em;
     color: #f7fff7;
     text-align: center;
     padding: 1em 1em 0em 1em;
@@ -94,7 +80,7 @@ body.modal-open {
 
 .text-heading-dark {
     font-family: 'Comfortaa', cursive;
-    font-size: 2em;
+    font-size: 1.75em;
     color: #000000;
     text-align: center;
     padding: 1em 1em 0em 1em;
@@ -106,13 +92,14 @@ body.modal-open {
     font-size: 1em;
     color: #000000;
     text-align: center;
-    padding: 1em 1em 0em 1em;
+    padding: 1em;
     line-height: 2em
 }
 
 .text-subheading {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.25em;
+    line-height: 2em;
     color: #f7fff7;
     text-align: center;
     padding: 0em 1em 2em 1em;
@@ -120,7 +107,8 @@ body.modal-open {
 
 .text-subheading-dark {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.25em;
+    line-height: 1.5em;
     color: #000000;
     text-align: center;
     padding: 0em 1em 2em 1em;
