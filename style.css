@@ -139,6 +139,10 @@ body.modal-open {
     text-transform: uppercase;
 }
 
+.text-landing-heading {
+    font-family: 'Comfortaa', cursive;
+}
+
 .text-landing-subheading {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
