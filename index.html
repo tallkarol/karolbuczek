@@ -617,11 +617,12 @@
                             </div>
                             <div class="card-footer">
                                 <div class="row p-2">
-                                    <a type="button" href="https://tallkarol.github.io/ym-presentation-final/" class="btn w-100 btn-secondary p-3" target="_blank" title="YM Project Overview (HTML)">Overview</a>
+                                    <div type="button" data-toggle="modal" data-target="#ymModal" class="btn w-100 btn-secondary p-3" title="YM Project Overview">Overview</div>
                                 </div>
                                 <div class="row p-2">
-                                    <a type="button" href="http://your-manager.herokuapp.com/" class="btn w-50 btn-outline-dark p-3" target="_blank" title="YM Web App (Heroku Deployment)"><i class="fas fa-desktop"></i></a>
-                                    <a type="button" href="https://github.com/CWRU-KHAN/your-manager" class="btn w-50 btn-outline-dark p-3" target="_blank" title="YM Github Repository"><i class="fab fa-github"></i></a>
+                                    <a type="button" href="https://tallkarol.github.io/ym-presentation-final/" class="btn btn-outline-dark p-3" style="width:33.3%" target="_blank" title="YM Product Presentation (HTML)"><i class="fas fa-desktop"></i></a>
+                                    <a type="button" href="http://your-manager.herokuapp.com/" class="btn btn-outline-dark p-3" style="width:33.3%" target="_blank" title="YM Web App (Heroku Deployment)"><i class="fas fa-desktop"></i></a>
+                                    <a type="button" href="https://github.com/CWRU-KHAN/your-manager" class="btn btn-outline-dark p-3" style="width:33.3%" target="_blank" title="YM Github Repository"><i class="fab fa-github"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -869,6 +870,137 @@
 
             <!-- PROJECT MODALS START -->
             <!--  -->
+
+                    <!-- parkerOverviewModal start -->
+                    <div class="modal fade" id="ymModal" tabindex="-1" role="dialog" aria-labelledby="ymModalTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content">
+                                <nav class="sticky-top">
+                                    <div class="modal-header bg-light">
+                                        <p class="text-heading-modal ml-auto" id="ymModalTitle">Your Manager - Project Overview</p>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </nav>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <div class="row pb-2">
+                                                <div class="col-12">
+                                                    <img src="assets/proj/ym/ym-proj-header.png" alt="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="row py-2">
+                                                <div class="col-6">
+                                                    <p class="text-modal-heading">Project Type</p>
+                                                    <div class="container">
+                                                        <p class="text-modal-text">Personal / Group</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p class="text-modal-heading">Project Date</p>
+                                                    <div class="container">
+                                                        <p class="text-modal-text">12/2018 - 01/2019</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row py-2">
+                                                <div class="col-12">
+                                                    <p class="text-modal-heading">Project Description</p>
+                                                    <div class="container">
+                                                        <p class="text-modal-text">Your Manager is a full stack Vue.js web app designed to help touring bands stay organized. YM offers event management, group communication and operations optimization; in an effort to help simplify the day to day activities of up-and-coming musical acts.</p>
+                                                        <p class="text-modal-text">Built during CWRU Full Stack Web Development Bootcamp.</p>
+                                                        <p class="text-modal-text">eam members: Karol Buczek, Nathan Golba, Hayley Hartman, Nate Becker.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row py-2">
+                                                <div class="col-12">
+                                                    <p class="text-modal-heading">Project Responsibilities</p>
+                                                    <ul>
+                                                        <li class="text-modal-text">conduct user research</li>
+                                                        <li class="text-modal-text">define project stakeholders, goals, and deliverables</li>
+                                                        <li class="text-modal-text">translate ideas into a project brief</li>
+                                                        <li class="text-modal-text">translate project breif into ux concepts</li>
+                                                        <li class="text-modal-text">define navigation structure / information architecture</li>
+                                                        <li class="text-modal-text">translate ux into code</li>
+                                                        <li class="text-modal-text">refactor code for performance and stability</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row py-2">
+                                                <div class="col-12">
+                                                    <p class="text-modal-heading">Functions Performed</p>
+                                                    <ul class="list-group">
+                                                        <div class="row container">
+                                                            <div class="col-6">
+                                                                <li class="list-group-item">Graphic Design</li>
+                                                                <li class="list-group-item">Illustration</li>
+                                                                <li class="list-group-item">UX Design</li>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <li class="list-group-item">Web Design</li>
+                                                                <li class="list-group-item">Web Development</li>
+                                                                <li class="list-group-item">Creative Direction</li>
+                                                            </div>
+                                                        </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row py-3">
+                                                <div class="col-12">
+                                                    <p class="text-modal-heading">Tools/Technologies/Frameworks/Libraries Used:</p>
+                                                    <ul class="list-group">
+                                                        <div class="row container">
+                                                            <div class="col-6">
+                                                                <li class="list-group-item">Adobe Photoshop</li>
+                                                                <li class="list-group-item">Adobe Illustrator</li>
+                                                                <li class="list-group-item">Github</li>
+                                                                <li class="list-group-item">HTML</li>
+                                                                <li class="list-group-item">CSS</li>
+                                                                <li class="list-group-item">JavaScript</li>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <li class="list-group-item">Vue.js</li>
+                                                                <li class="list-group-item">MySQL</li>
+                                                                <li class="list-group-item">Node.js</li>
+                                                                <li class="list-group-item">Express</li>
+                                                                <li class="list-group-item">Bootstrap</li>
+                                                            </div>
+                                                        </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row py-3">
+                                                <div class="col-12">
+                                                    <p class="text-modal-heading">Screenshots:</p>
+                                                    <div class="col-12 text-center pb-3">
+                                                        <img class="img-fluid" src="https://i.gyazo.com/95468fb46bf1292c40110a71a1959018.gif" alt="">
+                                                    </div>
+                                                    <div class="col-12 text-center py-3">
+                                                        <img class="img-fluid" src="https://i.gyazo.com/9cf34a86cc7ba1f6ad7e41a4b754ed69.gif" alt="">
+                                                    </div>
+                                                    <div class="col-12 text-center pt-3">
+                                                        <img class="img-fluid" src="https://i.gyazo.com/2b027053134e5bb2bf18456ca00d13a5.gif" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row py-3">
+                                                <div class="col-12 my-2">
+                                                    <a class="btn btn-block btn-secondary p-5" href="https://tallkarol.github.io/ym-presentation-final/" target="_blank">View Project</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div class="container">
+                                            <button type="button" class="btn btn-danger btn-block p-3" data-dismiss="modal">CLOSE</button>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- parkerModal end -->
 
                     <!-- parkerOverviewModal start -->
                     <div class="modal fade" id="parkerModal" tabindex="-1" role="dialog" aria-labelledby="parkerModalTitle" aria-hidden="true">
